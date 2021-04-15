@@ -1,0 +1,296 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/1/s/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Secrets.Models.Secret.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Secrets.Models.Secret.html",
+          "hash": "AVVRnSzhX1kj54WoujAPF2PIDwsw+2NG4zLwSPr+EPQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Secrets.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Secrets.Models.html",
+          "hash": "LEUW+GxmkUGXi2EZM3FzB9AUyStMcl6PA6rrNp7s2A0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Secrets.Repositories.ISecretRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Secrets.Repositories.ISecretRepository.html",
+          "hash": "XWLAzKVSHinFXQLg6ZmdKexnez5GYBpwH/h/UvrNwQs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Secrets.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Secrets.Repositories.html",
+          "hash": "3XGZLjXCd/Mem+DyJed2GH1fd1JXereh/xmxgEL3BB0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Secrets.Stores.ISecretStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Secrets.Stores.ISecretStore.html",
+          "hash": "52NgpSCIFuqL9/lQuoH1a8GdmkAyRVgSMyFsH8E5sO0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Secrets.Stores.SecretStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Secrets.Stores.SecretStore.html",
+          "hash": "UMj9w0+7Pr7ZubtcV8YG/8Fb6cWVk8RcXOif34YpBgI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Secrets.Stores.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Secrets.Stores.html",
+          "hash": "WOT5g2EEfHiOMNkSuAwQ4HzM4umVerKhWYFaIQkh25Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.SecretsServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.SecretsServiceCollectionExtensions.html",
+          "hash": "lA0+8hDzz8G6KoAHBLwlr6RBKc4VPoHfg70rRuVPJSQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.html",
+          "hash": "Vgp15fx3QZgyQfjhNryUbd/X6h3gTvMMyHZw4ZTcRgQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "mIGq6MN1+9d74YgASjE2Zbhjaae5Yi7RhfyjQoXNYjQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "k6fxga/rXBF+34kb2knwoXPUoayhGa+QOCWu54MXILc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "gcp1JB3/cLklcT+72krfnba+6CuoFkaQtheZ9cEBdjQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/codegator-167x79.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/codegator-167x79.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/codegator-334x158.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/codegator-334x158.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/codegator-500x236.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/codegator-500x236.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/codegator-667x315.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/codegator-667x315.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "GXiSEb/CqXPyVhUsC62X4bqEpBbP50Fhtyun5MgmspE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "q8/oL4oawHuvyYS+lWyuHsUYUdVywZrEtwpulbNly5Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

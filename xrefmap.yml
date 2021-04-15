@@ -1,0 +1,200 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: CG.Secrets.Models
+  name: CG.Secrets.Models
+  href: api/CG.Secrets.Models.html
+  commentId: N:CG.Secrets.Models
+  fullName: CG.Secrets.Models
+  nameWithType: CG.Secrets.Models
+- uid: CG.Secrets.Models.Secret
+  name: Secret
+  href: api/CG.Secrets.Models.Secret.html
+  commentId: T:CG.Secrets.Models.Secret
+  fullName: CG.Secrets.Models.Secret
+  nameWithType: Secret
+- uid: CG.Secrets.Models.Secret.Name
+  name: Name
+  href: api/CG.Secrets.Models.Secret.html#CG_Secrets_Models_Secret_Name
+  commentId: P:CG.Secrets.Models.Secret.Name
+  fullName: CG.Secrets.Models.Secret.Name
+  nameWithType: Secret.Name
+- uid: CG.Secrets.Models.Secret.Name*
+  name: Name
+  href: api/CG.Secrets.Models.Secret.html#CG_Secrets_Models_Secret_Name_
+  commentId: Overload:CG.Secrets.Models.Secret.Name
+  isSpec: "True"
+  fullName: CG.Secrets.Models.Secret.Name
+  nameWithType: Secret.Name
+- uid: CG.Secrets.Models.Secret.Value
+  name: Value
+  href: api/CG.Secrets.Models.Secret.html#CG_Secrets_Models_Secret_Value
+  commentId: P:CG.Secrets.Models.Secret.Value
+  fullName: CG.Secrets.Models.Secret.Value
+  nameWithType: Secret.Value
+- uid: CG.Secrets.Models.Secret.Value*
+  name: Value
+  href: api/CG.Secrets.Models.Secret.html#CG_Secrets_Models_Secret_Value_
+  commentId: Overload:CG.Secrets.Models.Secret.Value
+  isSpec: "True"
+  fullName: CG.Secrets.Models.Secret.Value
+  nameWithType: Secret.Value
+- uid: CG.Secrets.Repositories
+  name: CG.Secrets.Repositories
+  href: api/CG.Secrets.Repositories.html
+  commentId: N:CG.Secrets.Repositories
+  fullName: CG.Secrets.Repositories
+  nameWithType: CG.Secrets.Repositories
+- uid: CG.Secrets.Repositories.ISecretRepository
+  name: ISecretRepository
+  href: api/CG.Secrets.Repositories.ISecretRepository.html
+  commentId: T:CG.Secrets.Repositories.ISecretRepository
+  fullName: CG.Secrets.Repositories.ISecretRepository
+  nameWithType: ISecretRepository
+- uid: CG.Secrets.Repositories.ISecretRepository.GetByNameAsync(System.String,System.Threading.CancellationToken)
+  name: GetByNameAsync(String, CancellationToken)
+  href: api/CG.Secrets.Repositories.ISecretRepository.html#CG_Secrets_Repositories_ISecretRepository_GetByNameAsync_System_String_System_Threading_CancellationToken_
+  commentId: M:CG.Secrets.Repositories.ISecretRepository.GetByNameAsync(System.String,System.Threading.CancellationToken)
+  fullName: CG.Secrets.Repositories.ISecretRepository.GetByNameAsync(System.String, System.Threading.CancellationToken)
+  nameWithType: ISecretRepository.GetByNameAsync(String, CancellationToken)
+- uid: CG.Secrets.Repositories.ISecretRepository.GetByNameAsync*
+  name: GetByNameAsync
+  href: api/CG.Secrets.Repositories.ISecretRepository.html#CG_Secrets_Repositories_ISecretRepository_GetByNameAsync_
+  commentId: Overload:CG.Secrets.Repositories.ISecretRepository.GetByNameAsync
+  isSpec: "True"
+  fullName: CG.Secrets.Repositories.ISecretRepository.GetByNameAsync
+  nameWithType: ISecretRepository.GetByNameAsync
+- uid: CG.Secrets.Repositories.ISecretRepository.SetByNameAsync(System.String,System.String,System.Threading.CancellationToken)
+  name: SetByNameAsync(String, String, CancellationToken)
+  href: api/CG.Secrets.Repositories.ISecretRepository.html#CG_Secrets_Repositories_ISecretRepository_SetByNameAsync_System_String_System_String_System_Threading_CancellationToken_
+  commentId: M:CG.Secrets.Repositories.ISecretRepository.SetByNameAsync(System.String,System.String,System.Threading.CancellationToken)
+  fullName: CG.Secrets.Repositories.ISecretRepository.SetByNameAsync(System.String, System.String, System.Threading.CancellationToken)
+  nameWithType: ISecretRepository.SetByNameAsync(String, String, CancellationToken)
+- uid: CG.Secrets.Repositories.ISecretRepository.SetByNameAsync*
+  name: SetByNameAsync
+  href: api/CG.Secrets.Repositories.ISecretRepository.html#CG_Secrets_Repositories_ISecretRepository_SetByNameAsync_
+  commentId: Overload:CG.Secrets.Repositories.ISecretRepository.SetByNameAsync
+  isSpec: "True"
+  fullName: CG.Secrets.Repositories.ISecretRepository.SetByNameAsync
+  nameWithType: ISecretRepository.SetByNameAsync
+- uid: CG.Secrets.Stores
+  name: CG.Secrets.Stores
+  href: api/CG.Secrets.Stores.html
+  commentId: N:CG.Secrets.Stores
+  fullName: CG.Secrets.Stores
+  nameWithType: CG.Secrets.Stores
+- uid: CG.Secrets.Stores.ISecretStore
+  name: ISecretStore
+  href: api/CG.Secrets.Stores.ISecretStore.html
+  commentId: T:CG.Secrets.Stores.ISecretStore
+  fullName: CG.Secrets.Stores.ISecretStore
+  nameWithType: ISecretStore
+- uid: CG.Secrets.Stores.ISecretStore.GetByNameAsync(System.String,System.Threading.CancellationToken)
+  name: GetByNameAsync(String, CancellationToken)
+  href: api/CG.Secrets.Stores.ISecretStore.html#CG_Secrets_Stores_ISecretStore_GetByNameAsync_System_String_System_Threading_CancellationToken_
+  commentId: M:CG.Secrets.Stores.ISecretStore.GetByNameAsync(System.String,System.Threading.CancellationToken)
+  fullName: CG.Secrets.Stores.ISecretStore.GetByNameAsync(System.String, System.Threading.CancellationToken)
+  nameWithType: ISecretStore.GetByNameAsync(String, CancellationToken)
+- uid: CG.Secrets.Stores.ISecretStore.GetByNameAsync*
+  name: GetByNameAsync
+  href: api/CG.Secrets.Stores.ISecretStore.html#CG_Secrets_Stores_ISecretStore_GetByNameAsync_
+  commentId: Overload:CG.Secrets.Stores.ISecretStore.GetByNameAsync
+  isSpec: "True"
+  fullName: CG.Secrets.Stores.ISecretStore.GetByNameAsync
+  nameWithType: ISecretStore.GetByNameAsync
+- uid: CG.Secrets.Stores.ISecretStore.SetByNameAsync(System.String,System.String,System.Threading.CancellationToken)
+  name: SetByNameAsync(String, String, CancellationToken)
+  href: api/CG.Secrets.Stores.ISecretStore.html#CG_Secrets_Stores_ISecretStore_SetByNameAsync_System_String_System_String_System_Threading_CancellationToken_
+  commentId: M:CG.Secrets.Stores.ISecretStore.SetByNameAsync(System.String,System.String,System.Threading.CancellationToken)
+  fullName: CG.Secrets.Stores.ISecretStore.SetByNameAsync(System.String, System.String, System.Threading.CancellationToken)
+  nameWithType: ISecretStore.SetByNameAsync(String, String, CancellationToken)
+- uid: CG.Secrets.Stores.ISecretStore.SetByNameAsync*
+  name: SetByNameAsync
+  href: api/CG.Secrets.Stores.ISecretStore.html#CG_Secrets_Stores_ISecretStore_SetByNameAsync_
+  commentId: Overload:CG.Secrets.Stores.ISecretStore.SetByNameAsync
+  isSpec: "True"
+  fullName: CG.Secrets.Stores.ISecretStore.SetByNameAsync
+  nameWithType: ISecretStore.SetByNameAsync
+- uid: CG.Secrets.Stores.SecretStore
+  name: SecretStore
+  href: api/CG.Secrets.Stores.SecretStore.html
+  commentId: T:CG.Secrets.Stores.SecretStore
+  fullName: CG.Secrets.Stores.SecretStore
+  nameWithType: SecretStore
+- uid: CG.Secrets.Stores.SecretStore.#ctor(CG.Secrets.Repositories.ISecretRepository)
+  name: SecretStore(ISecretRepository)
+  href: api/CG.Secrets.Stores.SecretStore.html#CG_Secrets_Stores_SecretStore__ctor_CG_Secrets_Repositories_ISecretRepository_
+  commentId: M:CG.Secrets.Stores.SecretStore.#ctor(CG.Secrets.Repositories.ISecretRepository)
+  fullName: CG.Secrets.Stores.SecretStore.SecretStore(CG.Secrets.Repositories.ISecretRepository)
+  nameWithType: SecretStore.SecretStore(ISecretRepository)
+- uid: CG.Secrets.Stores.SecretStore.#ctor*
+  name: SecretStore
+  href: api/CG.Secrets.Stores.SecretStore.html#CG_Secrets_Stores_SecretStore__ctor_
+  commentId: Overload:CG.Secrets.Stores.SecretStore.#ctor
+  isSpec: "True"
+  fullName: CG.Secrets.Stores.SecretStore.SecretStore
+  nameWithType: SecretStore.SecretStore
+- uid: CG.Secrets.Stores.SecretStore.GetByNameAsync(System.String,System.Threading.CancellationToken)
+  name: GetByNameAsync(String, CancellationToken)
+  href: api/CG.Secrets.Stores.SecretStore.html#CG_Secrets_Stores_SecretStore_GetByNameAsync_System_String_System_Threading_CancellationToken_
+  commentId: M:CG.Secrets.Stores.SecretStore.GetByNameAsync(System.String,System.Threading.CancellationToken)
+  fullName: CG.Secrets.Stores.SecretStore.GetByNameAsync(System.String, System.Threading.CancellationToken)
+  nameWithType: SecretStore.GetByNameAsync(String, CancellationToken)
+- uid: CG.Secrets.Stores.SecretStore.GetByNameAsync*
+  name: GetByNameAsync
+  href: api/CG.Secrets.Stores.SecretStore.html#CG_Secrets_Stores_SecretStore_GetByNameAsync_
+  commentId: Overload:CG.Secrets.Stores.SecretStore.GetByNameAsync
+  isSpec: "True"
+  fullName: CG.Secrets.Stores.SecretStore.GetByNameAsync
+  nameWithType: SecretStore.GetByNameAsync
+- uid: CG.Secrets.Stores.SecretStore.SecretRepository
+  name: SecretRepository
+  href: api/CG.Secrets.Stores.SecretStore.html#CG_Secrets_Stores_SecretStore_SecretRepository
+  commentId: P:CG.Secrets.Stores.SecretStore.SecretRepository
+  fullName: CG.Secrets.Stores.SecretStore.SecretRepository
+  nameWithType: SecretStore.SecretRepository
+- uid: CG.Secrets.Stores.SecretStore.SecretRepository*
+  name: SecretRepository
+  href: api/CG.Secrets.Stores.SecretStore.html#CG_Secrets_Stores_SecretStore_SecretRepository_
+  commentId: Overload:CG.Secrets.Stores.SecretStore.SecretRepository
+  isSpec: "True"
+  fullName: CG.Secrets.Stores.SecretStore.SecretRepository
+  nameWithType: SecretStore.SecretRepository
+- uid: CG.Secrets.Stores.SecretStore.SetByNameAsync(System.String,System.String,System.Threading.CancellationToken)
+  name: SetByNameAsync(String, String, CancellationToken)
+  href: api/CG.Secrets.Stores.SecretStore.html#CG_Secrets_Stores_SecretStore_SetByNameAsync_System_String_System_String_System_Threading_CancellationToken_
+  commentId: M:CG.Secrets.Stores.SecretStore.SetByNameAsync(System.String,System.String,System.Threading.CancellationToken)
+  fullName: CG.Secrets.Stores.SecretStore.SetByNameAsync(System.String, System.String, System.Threading.CancellationToken)
+  nameWithType: SecretStore.SetByNameAsync(String, String, CancellationToken)
+- uid: CG.Secrets.Stores.SecretStore.SetByNameAsync*
+  name: SetByNameAsync
+  href: api/CG.Secrets.Stores.SecretStore.html#CG_Secrets_Stores_SecretStore_SetByNameAsync_
+  commentId: Overload:CG.Secrets.Stores.SecretStore.SetByNameAsync
+  isSpec: "True"
+  fullName: CG.Secrets.Stores.SecretStore.SetByNameAsync
+  nameWithType: SecretStore.SetByNameAsync
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  href: api/Microsoft.Extensions.DependencyInjection.html
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+- uid: Microsoft.Extensions.DependencyInjection.SecretsServiceCollectionExtensions
+  name: SecretsServiceCollectionExtensions
+  href: api/Microsoft.Extensions.DependencyInjection.SecretsServiceCollectionExtensions.html
+  commentId: T:Microsoft.Extensions.DependencyInjection.SecretsServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.SecretsServiceCollectionExtensions
+  nameWithType: SecretsServiceCollectionExtensions
+- uid: Microsoft.Extensions.DependencyInjection.SecretsServiceCollectionExtensions.AddSecretStores(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  name: AddSecretStores(IServiceCollection, IConfiguration, ServiceLifetime)
+  href: api/Microsoft.Extensions.DependencyInjection.SecretsServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_SecretsServiceCollectionExtensions_AddSecretStores_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_Microsoft_Extensions_DependencyInjection_ServiceLifetime_
+  commentId: M:Microsoft.Extensions.DependencyInjection.SecretsServiceCollectionExtensions.AddSecretStores(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  fullName: Microsoft.Extensions.DependencyInjection.SecretsServiceCollectionExtensions.AddSecretStores(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  nameWithType: SecretsServiceCollectionExtensions.AddSecretStores(IServiceCollection, IConfiguration, ServiceLifetime)
+- uid: Microsoft.Extensions.DependencyInjection.SecretsServiceCollectionExtensions.AddSecretStores*
+  name: AddSecretStores
+  href: api/Microsoft.Extensions.DependencyInjection.SecretsServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_SecretsServiceCollectionExtensions_AddSecretStores_
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.SecretsServiceCollectionExtensions.AddSecretStores
+  isSpec: "True"
+  fullName: Microsoft.Extensions.DependencyInjection.SecretsServiceCollectionExtensions.AddSecretStores
+  nameWithType: SecretsServiceCollectionExtensions.AddSecretStores
