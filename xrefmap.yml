@@ -115,44 +115,6 @@ references:
   isSpec: "True"
   fullName: CG.Secrets.Stores.ISecretStore.SetByNameAsync
   nameWithType: ISecretStore.SetByNameAsync
-- uid: CG.Secrets.Stores.SecretDistributedCacheExtensions
-  name: SecretDistributedCacheExtensions
-  href: api/CG.Secrets.Stores.SecretDistributedCacheExtensions.html
-  commentId: T:CG.Secrets.Stores.SecretDistributedCacheExtensions
-  fullName: CG.Secrets.Stores.SecretDistributedCacheExtensions
-  nameWithType: SecretDistributedCacheExtensions
-- uid: CG.Secrets.Stores.SecretDistributedCacheExtensions.GetAsync*
-  name: GetAsync
-  href: api/CG.Secrets.Stores.SecretDistributedCacheExtensions.html#CG_Secrets_Stores_SecretDistributedCacheExtensions_GetAsync_
-  commentId: Overload:CG.Secrets.Stores.SecretDistributedCacheExtensions.GetAsync
-  isSpec: "True"
-  fullName: CG.Secrets.Stores.SecretDistributedCacheExtensions.GetAsync
-  nameWithType: SecretDistributedCacheExtensions.GetAsync
-- uid: CG.Secrets.Stores.SecretDistributedCacheExtensions.GetAsync``1(Microsoft.Extensions.Caching.Distributed.IDistributedCache,System.String,System.Threading.CancellationToken)
-  name: GetAsync<T>(IDistributedCache, String, CancellationToken)
-  href: api/CG.Secrets.Stores.SecretDistributedCacheExtensions.html#CG_Secrets_Stores_SecretDistributedCacheExtensions_GetAsync__1_Microsoft_Extensions_Caching_Distributed_IDistributedCache_System_String_System_Threading_CancellationToken_
-  commentId: M:CG.Secrets.Stores.SecretDistributedCacheExtensions.GetAsync``1(Microsoft.Extensions.Caching.Distributed.IDistributedCache,System.String,System.Threading.CancellationToken)
-  name.vb: GetAsync(Of T)(IDistributedCache, String, CancellationToken)
-  fullName: CG.Secrets.Stores.SecretDistributedCacheExtensions.GetAsync<T>(Microsoft.Extensions.Caching.Distributed.IDistributedCache, System.String, System.Threading.CancellationToken)
-  fullName.vb: CG.Secrets.Stores.SecretDistributedCacheExtensions.GetAsync(Of T)(Microsoft.Extensions.Caching.Distributed.IDistributedCache, System.String, System.Threading.CancellationToken)
-  nameWithType: SecretDistributedCacheExtensions.GetAsync<T>(IDistributedCache, String, CancellationToken)
-  nameWithType.vb: SecretDistributedCacheExtensions.GetAsync(Of T)(IDistributedCache, String, CancellationToken)
-- uid: CG.Secrets.Stores.SecretDistributedCacheExtensions.SetAsync*
-  name: SetAsync
-  href: api/CG.Secrets.Stores.SecretDistributedCacheExtensions.html#CG_Secrets_Stores_SecretDistributedCacheExtensions_SetAsync_
-  commentId: Overload:CG.Secrets.Stores.SecretDistributedCacheExtensions.SetAsync
-  isSpec: "True"
-  fullName: CG.Secrets.Stores.SecretDistributedCacheExtensions.SetAsync
-  nameWithType: SecretDistributedCacheExtensions.SetAsync
-- uid: CG.Secrets.Stores.SecretDistributedCacheExtensions.SetAsync``1(Microsoft.Extensions.Caching.Distributed.IDistributedCache,System.String,``0,System.Threading.CancellationToken)
-  name: SetAsync<T>(IDistributedCache, String, T, CancellationToken)
-  href: api/CG.Secrets.Stores.SecretDistributedCacheExtensions.html#CG_Secrets_Stores_SecretDistributedCacheExtensions_SetAsync__1_Microsoft_Extensions_Caching_Distributed_IDistributedCache_System_String___0_System_Threading_CancellationToken_
-  commentId: M:CG.Secrets.Stores.SecretDistributedCacheExtensions.SetAsync``1(Microsoft.Extensions.Caching.Distributed.IDistributedCache,System.String,``0,System.Threading.CancellationToken)
-  name.vb: SetAsync(Of T)(IDistributedCache, String, T, CancellationToken)
-  fullName: CG.Secrets.Stores.SecretDistributedCacheExtensions.SetAsync<T>(Microsoft.Extensions.Caching.Distributed.IDistributedCache, System.String, T, System.Threading.CancellationToken)
-  fullName.vb: CG.Secrets.Stores.SecretDistributedCacheExtensions.SetAsync(Of T)(Microsoft.Extensions.Caching.Distributed.IDistributedCache, System.String, T, System.Threading.CancellationToken)
-  nameWithType: SecretDistributedCacheExtensions.SetAsync<T>(IDistributedCache, String, T, CancellationToken)
-  nameWithType.vb: SecretDistributedCacheExtensions.SetAsync(Of T)(IDistributedCache, String, T, CancellationToken)
 - uid: CG.Secrets.Stores.SecretStore
   name: SecretStore
   href: api/CG.Secrets.Stores.SecretStore.html
