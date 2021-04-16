@@ -74,11 +74,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CG.Secrets.Stores.SecretDistributedCacheExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Secrets.Stores.SecretDistributedCacheExtensions.html",
+          "hash": "apGI5PbD2LjW58fw9+AEHmrLekO9CaiwcZJ4Ciu7sjY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CG.Secrets.Stores.SecretStore.yml",
       "output": {
         ".html": {
           "relative_path": "api/CG.Secrets.Stores.SecretStore.html",
-          "hash": "UMj9w0+7Pr7ZubtcV8YG/8Fb6cWVk8RcXOif34YpBgI="
+          "hash": "v5zV4G6Jt3g/cnWS7zRqann3LHNpw5y8rew2oPVaELo="
         }
       },
       "is_incremental": false,
@@ -90,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Secrets.Stores.html",
-          "hash": "WOT5g2EEfHiOMNkSuAwQ4HzM4umVerKhWYFaIQkh25Y="
+          "hash": "zh9XoeQCZl3cnt1+ZsjBFGPPI2TpnI5n2ZwGVK1geC0="
         }
       },
       "is_incremental": false,
@@ -138,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "k6fxga/rXBF+34kb2knwoXPUoayhGa+QOCWu54MXILc="
+          "hash": "f/tTZCrdIESKTW9zq9WhKoO/IkrVrb9YNJm/c8K3Pxc="
         }
       },
       "is_incremental": false,
@@ -257,7 +269,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 9,
+          "total_file_count": 10,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
