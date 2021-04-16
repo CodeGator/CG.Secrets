@@ -12,7 +12,7 @@ namespace CG.Secrets.Stores
     /// This class contains extension methods related to the <see cref="IDistributedCache"/>
     /// type, for caching secrets.
     /// </summary>
-    public static partial class SecretDistributedCacheExtensions
+    internal static partial class SecretDistributedCacheExtensions
     {
         // *******************************************************************
         // Public methods.
