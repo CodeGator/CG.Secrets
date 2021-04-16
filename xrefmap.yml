@@ -121,15 +121,15 @@ references:
   commentId: T:CG.Secrets.Stores.SecretStore
   fullName: CG.Secrets.Stores.SecretStore
   nameWithType: SecretStore
-- uid: CG.Secrets.Stores.SecretStore.#ctor(Microsoft.Extensions.Logging.ILogger{CG.Secrets.Stores.SecretStore},Microsoft.Extensions.Caching.Distributed.IDistributedCache,CG.Secrets.Repositories.ISecretRepository)
-  name: SecretStore(ILogger<SecretStore>, IDistributedCache, ISecretRepository)
-  href: api/CG.Secrets.Stores.SecretStore.html#CG_Secrets_Stores_SecretStore__ctor_Microsoft_Extensions_Logging_ILogger_CG_Secrets_Stores_SecretStore__Microsoft_Extensions_Caching_Distributed_IDistributedCache_CG_Secrets_Repositories_ISecretRepository_
-  commentId: M:CG.Secrets.Stores.SecretStore.#ctor(Microsoft.Extensions.Logging.ILogger{CG.Secrets.Stores.SecretStore},Microsoft.Extensions.Caching.Distributed.IDistributedCache,CG.Secrets.Repositories.ISecretRepository)
-  name.vb: SecretStore(ILogger(Of SecretStore), IDistributedCache, ISecretRepository)
-  fullName: CG.Secrets.Stores.SecretStore.SecretStore(Microsoft.Extensions.Logging.ILogger<CG.Secrets.Stores.SecretStore>, Microsoft.Extensions.Caching.Distributed.IDistributedCache, CG.Secrets.Repositories.ISecretRepository)
-  fullName.vb: CG.Secrets.Stores.SecretStore.SecretStore(Microsoft.Extensions.Logging.ILogger(Of CG.Secrets.Stores.SecretStore), Microsoft.Extensions.Caching.Distributed.IDistributedCache, CG.Secrets.Repositories.ISecretRepository)
-  nameWithType: SecretStore.SecretStore(ILogger<SecretStore>, IDistributedCache, ISecretRepository)
-  nameWithType.vb: SecretStore.SecretStore(ILogger(Of SecretStore), IDistributedCache, ISecretRepository)
+- uid: CG.Secrets.Stores.SecretStore.#ctor(Microsoft.Extensions.Logging.ILogger{CG.Secrets.Stores.SecretStore},CG.Secrets.Repositories.ISecretRepository)
+  name: SecretStore(ILogger<SecretStore>, ISecretRepository)
+  href: api/CG.Secrets.Stores.SecretStore.html#CG_Secrets_Stores_SecretStore__ctor_Microsoft_Extensions_Logging_ILogger_CG_Secrets_Stores_SecretStore__CG_Secrets_Repositories_ISecretRepository_
+  commentId: M:CG.Secrets.Stores.SecretStore.#ctor(Microsoft.Extensions.Logging.ILogger{CG.Secrets.Stores.SecretStore},CG.Secrets.Repositories.ISecretRepository)
+  name.vb: SecretStore(ILogger(Of SecretStore), ISecretRepository)
+  fullName: CG.Secrets.Stores.SecretStore.SecretStore(Microsoft.Extensions.Logging.ILogger<CG.Secrets.Stores.SecretStore>, CG.Secrets.Repositories.ISecretRepository)
+  fullName.vb: CG.Secrets.Stores.SecretStore.SecretStore(Microsoft.Extensions.Logging.ILogger(Of CG.Secrets.Stores.SecretStore), CG.Secrets.Repositories.ISecretRepository)
+  nameWithType: SecretStore.SecretStore(ILogger<SecretStore>, ISecretRepository)
+  nameWithType.vb: SecretStore.SecretStore(ILogger(Of SecretStore), ISecretRepository)
 - uid: CG.Secrets.Stores.SecretStore.#ctor*
   name: SecretStore
   href: api/CG.Secrets.Stores.SecretStore.html#CG_Secrets_Stores_SecretStore__ctor_
@@ -137,19 +137,6 @@ references:
   isSpec: "True"
   fullName: CG.Secrets.Stores.SecretStore.SecretStore
   nameWithType: SecretStore.SecretStore
-- uid: CG.Secrets.Stores.SecretStore.Cache
-  name: Cache
-  href: api/CG.Secrets.Stores.SecretStore.html#CG_Secrets_Stores_SecretStore_Cache
-  commentId: P:CG.Secrets.Stores.SecretStore.Cache
-  fullName: CG.Secrets.Stores.SecretStore.Cache
-  nameWithType: SecretStore.Cache
-- uid: CG.Secrets.Stores.SecretStore.Cache*
-  name: Cache
-  href: api/CG.Secrets.Stores.SecretStore.html#CG_Secrets_Stores_SecretStore_Cache_
-  commentId: Overload:CG.Secrets.Stores.SecretStore.Cache
-  isSpec: "True"
-  fullName: CG.Secrets.Stores.SecretStore.Cache
-  nameWithType: SecretStore.Cache
 - uid: CG.Secrets.Stores.SecretStore.GetByNameAsync(System.String,System.Threading.CancellationToken)
   name: GetByNameAsync(String, CancellationToken)
   href: api/CG.Secrets.Stores.SecretStore.html#CG_Secrets_Stores_SecretStore_GetByNameAsync_System_String_System_Threading_CancellationToken_
