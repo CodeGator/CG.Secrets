@@ -40,6 +40,9 @@ namespace Microsoft.Extensions.DependencyInjection
             // Register the store.
             serviceCollection.Add<ISecretStore, SecretStore>(serviceLifetime);
 
+            // Add distributed caching.
+            serviceCollection.AddDistributedMemoryCache();
+
             // Return the service collection.
             return serviceCollection;
         }
