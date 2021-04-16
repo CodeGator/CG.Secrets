@@ -33,11 +33,6 @@ namespace CG.Secrets.Stores
         /// </summary>
         protected ISecretRepository SecretRepository { get; set; }
 
-        /// <summary>
-        /// This property contains a reference to a cache.
-        /// </summary>
-        protected IDistributedCache Cache { get; set; }
-
         #endregion
 
         // *******************************************************************
@@ -51,22 +46,18 @@ namespace CG.Secrets.Stores
         /// class.
         /// </summary>
         /// <param name="logger">The logger to use with the store.</param>
-        /// <param name="cache">The cache to use with the store.</param>
         /// <param name="secretRepository">The repository to use with the store.</param>
         public SecretStore(
             ILogger<SecretStore> logger,
-            IDistributedCache cache,
             ISecretRepository secretRepository
             ) 
         {
             // Validate the parameters before attempting to use them.
             Guard.Instance().ThrowIfNull(logger, nameof(logger))
-                .ThrowIfNull(cache, nameof(cache))
                 .ThrowIfNull(secretRepository, nameof(secretRepository));
 
             // Save the references.
             Logger = logger;
-            Cache = cache;
             SecretRepository = secretRepository;
         }
 
@@ -89,32 +80,11 @@ namespace CG.Secrets.Stores
                 // Validate the parameters before attempting to use them.
                 Guard.Instance().ThrowIfNullOrEmpty(name, nameof(name));
 
-                // Look in the cache first.
-                var secret = await Cache.GetAsync<Secret>(
+                // Defer to the repository.
+                var secret = await SecretRepository.GetByNameAsync(
                     name,
                     cancellationToken
                     ).ConfigureAwait(false);
-
-                // Did we fail to find a match?
-                if (null == secret)
-                {
-                    // Defer to the repository.
-                    secret = await SecretRepository.GetByNameAsync(
-                        name,
-                        cancellationToken
-                        ).ConfigureAwait(false);
-
-                    // Did we find a value?
-                    if (null != secret)
-                    {
-                        // Put the object in the cache.
-                        await Cache.SetAsync(
-                            name,
-                            secret,
-                            cancellationToken
-                            ).ConfigureAwait(false);
-                    }
-                }
 
                 // Return the results.
                 return secret;
@@ -151,17 +121,6 @@ namespace CG.Secrets.Stores
                     value,
                     cancellationToken
                     ).ConfigureAwait(false);
-
-                // Did we create a value?
-                if (null != secret)
-                {
-                    // Put the object in the cache.
-                    await Cache.SetAsync(
-                        name,
-                        secret,
-                        cancellationToken
-                        ).ConfigureAwait(false);
-                }
 
                 // Return the results.
                 return secret;
