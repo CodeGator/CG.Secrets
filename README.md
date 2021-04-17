@@ -1,9 +1,9 @@
 # CG.Secrets: 
 ---
-[![Build Status](https://dev.azure.com/codegator/CG.Secrets/_apis/build/status/CodeGator.CG.Secrets?branchName=master)](https://dev.azure.com/codegator/CG.Secrets/_build/latest?definitionId=1&branchName=master)
+[![Build Status](https://dev.azure.com/codegator/CG.Secrets/_apis/build/status/CodeGator.CG.Secrets?branchName=main)](https://dev.azure.com/codegator/CG.Secrets/_build/latest?definitionId=49&branchName=main)
 [![Github docs](https://img.shields.io/static/v1?label=Documentation&message=online&color=blue)](https://codegator.github.io/CG.Secrets/)
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Secrets.svg?style=flat)](https://nuget.org/packages/CG.Secrets)
-![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Secrets/1)
+![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Secrets/49)
 [![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Secrets/discussions)
 
 #### What does it do?
