@@ -5,6 +5,7 @@
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Secrets.svg?style=flat)](https://nuget.org/packages/CG.Secrets)
 ![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Secrets/49)
 [![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Secrets/discussions)
+[![CG.Secrets on fuget.org](https://www.fuget.org/packages/CG.Secrets/badge.svg)](https://www.fuget.org/packages/CG.Secrets)
 
 #### What does it do?
 The package contains secrets extensions used by other CodeGator packages.
@@ -19,6 +20,8 @@ PM> Install-Package CG.Secrets
 
 #### How do I contact you?
 If you've spotted a bug in the code please use the project Issues [HERE](https://github.com/CodeGator/CG.Secrets/issues)
+
+We have a discussion group [HERE](https://github.com/CodeGator/CG.Secrets/discussions)
 
 #### Is there any documentation?
 There is developer documentation [HERE](https://codegator.github.io/CG.Secrets/)
